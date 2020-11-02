@@ -4,23 +4,21 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
 /*general styles*/
 
 p {
     font-size: 16px;
 }
 
+body {
+    background-color: #d9dcd6;
+}
 
 /*header and nav section*/
 
 header {
     padding: 20px;
     background-color: #2a607c;
-    
 }
 
 h1 {
@@ -56,7 +54,6 @@ a {
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
-   
 }
 
 /*hero section*/
@@ -72,7 +69,6 @@ a {
 
 /*content section*/
 
-
 .content {
     width: 75%;
     display: inline-block;
@@ -86,7 +82,7 @@ h2 {
 }
 
 .content div {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
@@ -118,11 +114,12 @@ h2 {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    
 }
 
-.benefits div {margin-bottom: 20px;
-    color: #ffffff;}
+.benefits div {
+    margin-bottom: 35px;
+    color: #ffffff;
+}
 
 h3 {
     margin-bottom: 10px;
@@ -142,8 +139,4 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
